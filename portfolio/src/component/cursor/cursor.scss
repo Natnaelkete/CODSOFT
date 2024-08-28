@@ -1,0 +1,15 @@
+@import "../../app.scss";
+
+.cursor {
+  background-image: url("/space.png");
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 999;
+
+  @include mobile {
+    display: none;
+  }
+}
