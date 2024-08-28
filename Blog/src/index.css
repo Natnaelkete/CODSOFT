@@ -182,3 +182,37 @@ ul li button {
   padding: 2px 4px;
   font-weight: 400;
 }
+
+.signup-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.signup-form input {
+  width: 100%;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.login-form input {
+  width: 100%;
+}
